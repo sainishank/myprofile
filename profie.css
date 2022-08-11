@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgb(253, 67, 222),rgb(113, 49, 252));
+ }
+ .mainbody{
+    width: 36%;
+    height: 88%;
+    margin: 2rem;
+    margin-left: 27rem;
+    background: rgb(11, 11, 46);
+    border-radius: 1rem;
+    box-shadow: 12px 12px 20px rgb(36, 36, 36);
+    text-align: center;
+ }
+ .mainbody:hover{
+    transform: scale(1.03);
+ }
+ .mainbody img{
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+    margin-top:2rem ;
+    margin-left: -1rem;
+    border: 5px solid rgb(21, 233, 253);
+ }
+ .mainbody h1{
+    font-size: 2.5rem;
+    background: none;
+    margin: 1rem;
+    color: white;
+ }
+ .mainbody p{
+    background: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+.icons{
+    background: none;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+ }
+ .icons .new{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 360px;
+    margin: 1rem;
+ }
+.icons img{
+    width: 60px;
+    height: 60px;
+    border-radius: 360px;
+    border: 0px;
+    background: none;
+    margin-top: 0px;
+    margin: 5px;
+}
+.icons a{
+    background: none;
+}
+.icons .new:hover{
+    margin-top: -1rem;
+}
+button{
+    background: none;
+    width: 200px;
+    height: 40px;
+    color: azure;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 700px){
+   *{
+      width: 100%;
+      background-image: linear-gradient(to right,rgb(253, 67, 222),rgb(113, 49, 252));
+      background-attachment: fixed;
+      background-clip: border-box;
+      justify-content: center;
+      text-align: center;
+   }
+   .mainbody{
+      width: 80%;
+      height: 94%;
+      margin: 30px;
+      margin-left: 50px;
+   }
+   .icons .new{
+      width: 50px;
+      height: 50px;
+   }
+  .icons img{
+      width: 40px;
+      height: 40px;
+  }
+  .mainbody h1{
+   font-size: 2.5rem;
+   margin-left: 0px;
+}
+.mainbody p{
+   margin-left: 5px;
+} 
+}
+
+@media (min-width: 701px) and (max-width:1000px){
+   *{
+      width: 100%;
+      background-image: linear-gradient(to right,rgb(253, 67, 222),rgb(113, 49, 252));
+      background-attachment: fixed;
+      background-clip: border-box;
+   }
+   .mainbody{
+      width: 50%;
+      height: 93%;
+      margin: 40px;
+      margin-left: 16rem;
+   }
+   .icons .new{
+      width: 50px;
+      height: 50px;
+   }
+  .icons img{
+      width: 40px;
+      height: 40px;
+  }
+  .mainbody h1{
+   font-size: 2.5rem;
+   margin-left: 0px;
+}
+.mainbody p{
+   margin-left: 5px;
+}
+  
+}
+@media (min-width: 1001px) and (max-width:1300px){
+   .mainbody{
+      width: 40%;
+      height: 100%;
+      margin: 40px;
+      margin-left: 20rem;
+   }
+}
